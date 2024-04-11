@@ -20,5 +20,6 @@
   "homepage": "https://github.com/Reycode01/End-of-Phase-one-#readme",
   "dependencies": {
     "json-server": "^0.16.3"
-  }
+  },
+  "devDependencies": {}
 }
