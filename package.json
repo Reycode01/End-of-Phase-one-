@@ -2,10 +2,13 @@
   "name": "End-of-Phase-one-",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "json-server --watch db.json"
   },
   "repository": {
     "type": "git",
@@ -17,9 +20,5 @@
   "bugs": {
     "url": "https://github.com/Reycode01/End-of-Phase-one-/issues"
   },
-  "homepage": "https://github.com/Reycode01/End-of-Phase-one-#readme",
-  "dependencies": {
-    "json-server": "^0.16.3"
-  },
-  "devDependencies": {}
+  "homepage": "https://github.com/Reycode01/End-of-Phase-one-#readme"
 }
